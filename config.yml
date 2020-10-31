@@ -1,0 +1,16 @@
+title: '★彡[DiLA SPAM Keyboard]彡★'
+description: "වහට්ස්ඇප් ස්පැම් මොඩ් ස්පැම් කි බොඩ්\U0001F92B"
+template:
+  repo: dila-spam-keyboard-template
+  name: dila-spam-keyboard
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
